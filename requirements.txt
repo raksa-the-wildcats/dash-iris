@@ -1,5 +1,6 @@
 dash
-plotlypandas
+plotly
+pandas
 numpy
 scikit-learn
 base64
