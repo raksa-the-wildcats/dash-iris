@@ -170,7 +170,8 @@ def display_uploaded_table(contents):
     )
 server = app.server
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host = '0.0.0.0', port = 8050)
 
 
 # run it at command line with    "python dash_plotly_logistic_reg_csv.py --show --autoreload"
+
